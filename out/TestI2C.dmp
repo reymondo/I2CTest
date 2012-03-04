@@ -1,0 +1,261 @@
+
+out/TestI2C.elf:     file format elf32-littlearm
+out/TestI2C.elf
+architecture: arm, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x080001e4
+
+Program Header:
+    LOAD off    0x00008000 vaddr 0x08000000 paddr 0x08000000 align 2**15
+         filesz 0x00001ebc memsz 0x00001ebc flags r-x
+    LOAD off    0x00010000 vaddr 0x20000000 paddr 0x08001ebc align 2**15
+         filesz 0x00000014 memsz 0x00000168 flags rw-
+private flags = 5000002: [Version5 EABI] [has entry point]
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .isr_vector   000001e4  08000000  08000000  00008000  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  1 .text         00001cd8  080001e4  080001e4  000081e4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .data         00000014  20000000  08001ebc  00010000  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .bss.GreenLED 00000004  20000014  08001ed0  00010014  2**2
+                  ALLOC
+  4 .bss.YellowLED 00000004  20000018  08001ed4  00010014  2**2
+                  ALLOC
+  5 .bss.Console  0000004c  2000001c  08001ed8  00010014  2**2
+                  ALLOC
+  6 ._usrstack    00000100  20000068  08001f24  00010014  2**0
+                  ALLOC
+  7 .ARM.attributes 00000025  00000000  00000000  00010014  2**0
+                  CONTENTS, READONLY
+  8 .comment      0000002a  00000000  00000000  00010039  2**0
+                  CONTENTS, READONLY
+  9 .debug_aranges 000013f8  00000000  00000000  00010068  2**3
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_pubnames 00002f9f  00000000  00000000  00011460  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_info   0000e10e  00000000  00000000  000143ff  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_abbrev 00002986  00000000  00000000  0002250d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_line   00009024  00000000  00000000  00024e93  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 14 .debug_frame  00003e9c  00000000  00000000  0002deb8  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_str    00005a77  00000000  00000000  00031d54  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_loc    00007404  00000000  00000000  000377cb  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 17 .debug_macinfo 007c508d  00000000  00000000  0003ebcf  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 18 .debug_ranges 00001220  00000000  00000000  00803c60  2**3
+                  CONTENTS, READONLY, DEBUGGING
+ 19 .debug_pubtypes 0000106d  00000000  00000000  00804e80  2**0
+                  CONTENTS, READONLY, DEBUGGING
+SYMBOL TABLE:
+08000000 l    d  .isr_vector	00000000 .isr_vector
+080001e4 l    d  .text	00000000 .text
+20000000 l    d  .data	00000000 .data
+20000014 l    d  .bss.GreenLED	00000000 .bss.GreenLED
+20000018 l    d  .bss.YellowLED	00000000 .bss.YellowLED
+2000001c l    d  .bss.Console	00000000 .bss.Console
+20000068 l    d  ._usrstack	00000000 ._usrstack
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_pubnames	00000000 .debug_pubnames
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_macinfo	00000000 .debug_macinfo
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_pubtypes	00000000 .debug_pubtypes
+f1e0f85f l       *ABS*	00000000 BootRAM
+080001f0 l       .text	00000000 LoopCopyDataInit
+080001e8 l       .text	00000000 CopyDataInit
+08000204 l       .text	00000000 LoopFillZerobss
+080001fe l       .text	00000000 FillZerobss
+08000228 l       .text	00000000 Infinite_Loop
+00000000 l    df *ABS*	00000000 stm32f10x_it.c
+00000000 l    df *ABS*	00000000 system_stm32f10x.c
+080002f8 l     F .text	0000000a SetSysClock
+08000304 l     F .text	00000144 SetSysClockTo72
+00000000 l    df *ABS*	00000000 misc.c
+00000000 l    df *ABS*	00000000 stm32f10x_gpio.c
+00000000 l    df *ABS*	00000000 stm32f10x_i2c.c
+00000000 l    df *ABS*	00000000 stm32f10x_rcc.c
+20000000 l     O .data	00000010 APBAHBPrescTable
+20000010 l     O .data	00000004 ADCPrescTable
+00000000 l    df *ABS*	00000000 stm32f10x_usart.c
+00000000 l    df *ABS*	00000000 KamodRGB.cpp
+08001eb0 l     O .text	00000006 _ZZN8KamodRGB4initEh3I2CE3C.0
+00000000 l    df *ABS*	00000000 main.cpp
+0800141c l     F .text	00000058 NVIC_SetPriority
+08001474 l     F .text	00000054 SysTick_Config
+08001eb8 l     O .text	00000002 _ZZ4mainE3C.0
+00000000 l    df *ABS*	00000000 stm32-P107.cpp
+00000000 l    df *ABS*	00000000 core_cm3.c
+00000000 l    df *ABS*	00000000 stm32f10x_adc.c
+00000000 l    df *ABS*	00000000 stm32f10x_bkp.c
+00000000 l    df *ABS*	00000000 stm32f10x_can.c
+00000000 l    df *ABS*	00000000 stm32f10x_cec.c
+00000000 l    df *ABS*	00000000 stm32f10x_crc.c
+00000000 l    df *ABS*	00000000 stm32f10x_dac.c
+00000000 l    df *ABS*	00000000 stm32f10x_dbgmcu.c
+00000000 l    df *ABS*	00000000 stm32f10x_dma.c
+00000000 l    df *ABS*	00000000 stm32f10x_exti.c
+00000000 l    df *ABS*	00000000 stm32f10x_flash.c
+00000000 l    df *ABS*	00000000 stm32f10x_fsmc.c
+00000000 l    df *ABS*	00000000 stm32f10x_iwdg.c
+00000000 l    df *ABS*	00000000 stm32f10x_pwr.c
+00000000 l    df *ABS*	00000000 stm32f10x_rtc.c
+00000000 l    df *ABS*	00000000 stm32f10x_sdio.c
+00000000 l    df *ABS*	00000000 stm32f10x_spi.c
+00000000 l    df *ABS*	00000000 stm32f10x_tim.c
+00000000 l    df *ABS*	00000000 stm32f10x_wwdg.c
+08000228  w    F .text	00000002 EXTI2_IRQHandler
+08000264 g     F .text	0000000a DebugMon_Handler
+20000068 g       ._usrstack	00000000 _susrstack
+08000228  w    F .text	00000002 TIM1_CC_IRQHandler
+08000b28 g     F .text	0000001c I2C_ReceiveData
+08000238 g     F .text	00000006 HardFault_Handler
+08000228  w    F .text	00000002 TIM6_IRQHandler
+08001674 g     F .text	0000001c SysTick_Handler
+08000448 g     F .text	000000d8 NVIC_Init
+08000228  w    F .text	00000002 PVD_IRQHandler
+08001ebc g       .text	00000000 _sidata
+08000270 g     F .text	0000000a PendSV_Handler
+080012f4 g     F .text	00000034 _ZN8KamodRGBC2Eh3I2C
+0800022c g     F .text	0000000a NMI_Handler
+08000228  w    F .text	00000002 CAN2_RX1_IRQHandler
+08000228  w    F .text	00000002 EXTI3_IRQHandler
+08001738 g     F .text	00000040 _ZN3LED6ToggleEv
+08001bb8 g     F .text	000000e4 _ZN3I2C9sendBytesEhPhh
+08001aa4 g     F .text	00000016 _ZN3I2CC1Ev
+20000014 g     O .bss.GreenLED	00000002 GreenLED
+080011e8 g     F .text	00000040 USART_GetFlagStatus
+08001ebc g       .text	00000000 _etext
+20000014 g       .data	00000000 _sbss
+08001994 g     F .text	000000c0 _ZN5USART14recCharHandlerEc
+08000754 g     F .text	00000104 GPIO_PinRemapConfig
+08000228  w    F .text	00000002 EXTI0_IRQHandler
+08000228  w    F .text	00000002 I2C2_EV_IRQHandler
+08000228  w    F .text	00000002 CAN1_RX0_IRQHandler
+080011c4 g     F .text	00000024 USART_ReceiveData
+08000250 g     F .text	00000006 UsageFault_Handler
+08000de8 g     F .text	00000044 RCC_APB2PeriphClockCmd
+08000228  w    F .text	00000002 CAN2_SCE_IRQHandler
+08000228  w    F .text	00000002 ADC1_2_IRQHandler
+08000520 g     F .text	000001c0 GPIO_Init
+20000000 g       .data	00000000 _sdata
+08000228  w    F .text	00000002 SPI1_IRQHandler
+080010b4 g     F .text	0000003e USART_Cmd
+08000228  w    F .text	00000002 TAMPER_IRQHandler
+08000228  w    F .text	00000002 CAN2_RX0_IRQHandler
+08000e2c g     F .text	00000044 RCC_APB1PeriphClockCmd
+08000228  w    F .text	00000002 DMA2_Channel2_IRQHandler
+08000228  w    F .text	00000002 DMA1_Channel4_IRQHandler
+08000b08 g     F .text	0000001e I2C_SendData
+08000858 g     F .text	000001b0 I2C_Init
+08000228  w    F .text	00000002 USART3_IRQHandler
+08000228  w    F .text	00000002 RTC_IRQHandler
+20000014 g       .data	00000000 _ebss
+08001228 g     F .text	000000ca USART_GetITStatus
+08000228  w    F .text	00000002 DMA1_Channel7_IRQHandler
+080001e4  w    F .text	00000030 Reset_Handler
+08000228  w    F .text	00000002 CAN1_RX1_IRQHandler
+08000228  w    F .text	00000002 UART5_IRQHandler
+0800071c g     F .text	0000001c GPIO_SetBits
+08000228  w    F .text	00000002 TIM4_IRQHandler
+08000228  w    F .text	00000002 DMA2_Channel1_IRQHandler
+080016f8 g     F .text	00000020 _ZN3LED2OnEv
+08000a48 g     F .text	0000003e I2C_GenerateSTART
+08001d70 g     F .text	0000010c _ZN3I2C9readBytesEhPhh
+08000228  w    F .text	00000002 I2C1_EV_IRQHandler
+08000bf0 g     F .text	000001f8 RCC_GetClocksFreq
+08000228  w    F .text	00000002 DMA1_Channel6_IRQHandler
+08000228  w    F .text	00000002 UART4_IRQHandler
+08000228  w    F .text	00000002 DMA2_Channel4_IRQHandler
+08000e70 g     F .text	000001b0 USART_Init
+08000228  w    F .text	00000002 TIM3_IRQHandler
+08000228  w    F .text	00000002 RCC_IRQHandler
+08000228  w    F .text	00000002 TIM1_TRG_COM_IRQHandler
+08000228  w    F .text	00000002 DMA1_Channel1_IRQHandler
+0800194c g     F .text	00000048 _ZN5USART10sendStringEPKc
+08000228 g       .text	00000002 Default_Handler
+08000228  w    F .text	00000002 EXTI15_10_IRQHandler
+00000100 g       *ABS*	00000000 _Minimum_Stack_Size
+080010f4 g     F .text	000000a6 USART_ITConfig
+08001328 g     F .text	000000bc _ZN8KamodRGB4initEh3I2C
+08001778 g     F .text	00000170 _ZN5USART4initEh
+08000a08 g     F .text	0000003e I2C_Cmd
+08000738 g     F .text	0000001c GPIO_ResetBits
+08000228  w    F .text	00000002 TIM7_IRQHandler
+08000228  w    F .text	00000002 CAN2_TX_IRQHandler
+08000228  w    F .text	00000002 TIM5_IRQHandler
+08000228  w    F .text	00000002 EXTI9_5_IRQHandler
+08000b44 g     F .text	0000003a I2C_Send7bitAddress
+08000228  w    F .text	00000002 ETH_WKUP_IRQHandler
+08000228  w    F .text	00000002 SPI2_IRQHandler
+08001abc g     F .text	00000022 _ZN3I2CC1Eh
+080013e4 g     F .text	00000038 _ZN8KamodRGB5lightE14KamodRGBColorsh
+08000240 g     F .text	00000006 MemManage_Handler
+080014c8 g     F .text	000001ac main
+08001020 g     F .text	00000060 USART_ClockInit
+08000228  w    F .text	00000002 CAN1_TX_IRQHandler
+08000258 g     F .text	0000000a SVC_Handler
+08000228  w    F .text	00000002 DMA2_Channel5_IRQHandler
+00000400 g       *ABS*	00000000 __Stack_Size
+2000001c g     O .bss.Console	0000004c Console
+08000228  w    F .text	00000002 DMA1_Channel5_IRQHandler
+08000228  w    F .text	00000002 EXTI4_IRQHandler
+080012f4 g     F .text	00000034 _ZN8KamodRGBC1Eh3I2C
+2000fbff g       *ABS*	00000000 __Stack_Init
+0800027c g     F .text	0000007c SystemInit
+08000228  w    F .text	00000002 DMA1_Channel3_IRQHandler
+08000228  w    F .text	00000002 ETH_IRQHandler
+08000228  w    F .text	00000002 TIM1_UP_IRQHandler
+08001aa4 g     F .text	00000016 _ZN3I2CC2Ev
+08000228  w    F .text	00000002 WWDG_IRQHandler
+08000228  w    F .text	00000002 TIM2_IRQHandler
+20000168 g       ._usrstack	00000000 _eusrstack
+08000228  w    F .text	00000002 OTG_FS_WKUP_IRQHandler
+08001ae0 g     F .text	000000d8 _ZN3I2C4initEh
+08000228  w    F .text	00000002 TIM1_BRK_IRQHandler
+0800119c g     F .text	00000026 USART_SendData
+2000ffff g       *ABS*	00000000 _estack
+08000228  w    F .text	00000002 EXTI1_IRQHandler
+20000014 g       .data	00000000 _edata
+0800192c g     F .text	00000020 _ZN5USART8readCharEv
+08000228  w    F .text	00000002 RTCAlarm_IRQHandler
+08001a54 g     F .text	00000050 USART2_IRQHandler
+08001690 g     F .text	00000068 _ZN3LED4initE5ELEDs
+08000000 g     O .isr_vector	00000000 g_pfnVectors
+08000228  w    F .text	00000002 I2C2_ER_IRQHandler
+08000228  w    F .text	00000002 DMA1_Channel2_IRQHandler
+08000228  w    F .text	00000002 CAN1_SCE_IRQHandler
+08000228  w    F .text	00000002 FLASH_IRQHandler
+08000248 g     F .text	00000006 BusFault_Handler
+08000228  w    F .text	00000002 USART1_IRQHandler
+08000ac8 g     F .text	0000003e I2C_AcknowledgeConfig
+08000228  w    F .text	00000002 OTG_FS_IRQHandler
+08000228  w    F .text	00000002 SPI3_IRQHandler
+08001080 g     F .text	00000032 USART_ClockStructInit
+08000b80 g     F .text	00000070 I2C_CheckEvent
+08000a88 g     F .text	0000003e I2C_GenerateSTOP
+08000228  w    F .text	00000002 I2C1_ER_IRQHandler
+00000000  w      *UND*	00000000 _Jv_RegisterClasses
+08001718 g     F .text	00000020 _ZN3LED3OffEv
+20000018 g     O .bss.YellowLED	00000002 YellowLED
+080006e0 g     F .text	0000003c GPIO_ReadInputDataBit
+080018e8 g     F .text	00000044 _ZN5USART8sendCharEc
+08001c9c g     F .text	000000d4 _ZN3I2C10sendBytes2EhPhh
+08001abc g     F .text	00000022 _ZN3I2CC2Eh
+08000228  w    F .text	00000002 DMA2_Channel3_IRQHandler
+
+
