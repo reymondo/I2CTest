@@ -216,6 +216,7 @@
       <itemPath>gdbinit</itemPath>
     </logicalFolder>
     <itemPath>gdbinit</itemPath>
+    <itemPath>run.sh</itemPath>
   </logicalFolder>
   <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
   <sourceRootList>
