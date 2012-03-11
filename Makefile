@@ -2,7 +2,7 @@
 # ARM makefile
 #
 # author: reymondo
-# last change: 2012-01-07
+# last change: 2012-03-04
 #
 # this makefile is based strongly on examples from: 
 # http://www.freddiechopin.info/
@@ -22,6 +22,8 @@ OBJCOPY = $(TOOLCHAIN)objcopy
 OBJDUMP = $(TOOLCHAIN)objdump
 SIZE = $(TOOLCHAIN)size
 RM = rm -f
+
+ST_LIB=./../StLibraries
 
 #=============================================================================#
 # project configuration
@@ -50,9 +52,9 @@ AS_DEFS =
 
 # include directories (absolute or relative paths to additional folders with
 # headers, current folder is always included)
-INC_DIRS = /home/reymondo/Work/stm32-P107/workspace/TestI2C/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x
-INC_DIRS +=/home/reymondo/Work/stm32-P107/workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc
-INC_DIRS +=/home/reymondo/Work/stm32-P107/workspace/TestI2C/Libraries/CMSIS/CM3/CoreSupport
+INC_DIRS =   $(ST_LIB)/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/
+INC_DIRS +=$(ST_LIB)/Libraries/STM32F10x_StdPeriph_Driver/inc/
+INC_DIRS +=$(ST_LIB)/Libraries/CMSIS/CM3/CoreSupport/
 
 
 # library directories (absolute or relative paths to additional folders with
@@ -65,9 +67,9 @@ LIBS =
 
 # additional directories with source files (absolute or relative paths to
 # folders with source files, current folder is always included)
-SRCS_DIRS = /home/reymondo/Work/stm32-P107/workspace/TestI2C/Libraries/CMSIS/CM3/CoreSupport
-SRCS_DIRS+= /home/reymondo/Work/stm32-P107/workspace/TestI2C/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x
-SRCS_DIRS+= /home/reymondo/Work/stm32-P107/workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src
+SRCS_DIRS =   $(ST_LIB)/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/
+SRCS_DIRS+= $(ST_LIB)/Libraries/STM32F10x_StdPeriph_Driver/src/
+SRCS_DIRS+= $(ST_LIB)/Libraries/CMSIS/CM3/CoreSupport/
 
 # extension of C++ files
 CXX_EXT = cpp

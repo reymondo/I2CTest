@@ -2,124 +2,10 @@
 <configurationDescriptor version="79">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df name="I2CTest" root=".">
-      <df name="Libraries">
-        <df name="CMSIS">
-          <df name="CM3">
-            <df name="CoreSupport">
-              <in>core_cm3.c</in>
-              <in>core_cm3.h</in>
-            </df>
-            <df name="DeviceSupport">
-              <df name="ST">
-                <df name="STM32F10x">
-                  <df name="startup">
-                    <df name="arm">
-                      <in>startup_stm32f10x_cl.s</in>
-                      <in>startup_stm32f10x_hd.s</in>
-                      <in>startup_stm32f10x_hd_vl.s</in>
-                      <in>startup_stm32f10x_ld.s</in>
-                      <in>startup_stm32f10x_ld_vl.s</in>
-                      <in>startup_stm32f10x_md.s</in>
-                      <in>startup_stm32f10x_md_vl.s</in>
-                      <in>startup_stm32f10x_xl.s</in>
-                    </df>
-                    <df name="gcc_ride7">
-                      <in>startup_stm32f10x_cl.s</in>
-                      <in>startup_stm32f10x_hd.s</in>
-                      <in>startup_stm32f10x_hd_vl.s</in>
-                      <in>startup_stm32f10x_ld.s</in>
-                      <in>startup_stm32f10x_ld_vl.s</in>
-                      <in>startup_stm32f10x_md.s</in>
-                      <in>startup_stm32f10x_md_vl.s</in>
-                      <in>startup_stm32f10x_xl.s</in>
-                    </df>
-                    <df name="iar">
-                      <in>startup_stm32f10x_cl.s</in>
-                      <in>startup_stm32f10x_hd.s</in>
-                      <in>startup_stm32f10x_hd_vl.s</in>
-                      <in>startup_stm32f10x_ld.s</in>
-                      <in>startup_stm32f10x_ld_vl.s</in>
-                      <in>startup_stm32f10x_md.s</in>
-                      <in>startup_stm32f10x_md_vl.s</in>
-                      <in>startup_stm32f10x_xl.s</in>
-                    </df>
-                    <df name="TrueSTUDIO">
-                      <in>startup_stm32f10x_cl.s</in>
-                      <in>startup_stm32f10x_hd.s</in>
-                      <in>startup_stm32f10x_hd_vl.s</in>
-                      <in>startup_stm32f10x_ld.s</in>
-                      <in>startup_stm32f10x_ld_vl.s</in>
-                      <in>startup_stm32f10x_md.s</in>
-                      <in>startup_stm32f10x_md_vl.s</in>
-                      <in>startup_stm32f10x_xl.s</in>
-                    </df>
-                  </df>
-                  <in>stm32f10x.h</in>
-                  <in>stm32f10x_conf.h</in>
-                  <in>system_stm32f10x.c</in>
-                  <in>system_stm32f10x.h</in>
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="Documentation">
-          </df>
-        </df>
-        <df name="STM32F10x_StdPeriph_Driver">
-          <df name="inc">
-            <in>misc.h</in>
-            <in>stm32f10x_adc.h</in>
-            <in>stm32f10x_bkp.h</in>
-            <in>stm32f10x_can.h</in>
-            <in>stm32f10x_cec.h</in>
-            <in>stm32f10x_crc.h</in>
-            <in>stm32f10x_dac.h</in>
-            <in>stm32f10x_dbgmcu.h</in>
-            <in>stm32f10x_dma.h</in>
-            <in>stm32f10x_exti.h</in>
-            <in>stm32f10x_flash.h</in>
-            <in>stm32f10x_fsmc.h</in>
-            <in>stm32f10x_gpio.h</in>
-            <in>stm32f10x_i2c.h</in>
-            <in>stm32f10x_iwdg.h</in>
-            <in>stm32f10x_pwr.h</in>
-            <in>stm32f10x_rcc.h</in>
-            <in>stm32f10x_rtc.h</in>
-            <in>stm32f10x_sdio.h</in>
-            <in>stm32f10x_spi.h</in>
-            <in>stm32f10x_tim.h</in>
-            <in>stm32f10x_usart.h</in>
-            <in>stm32f10x_wwdg.h</in>
-          </df>
-          <df name="src">
-            <in>misc.c</in>
-            <in>stm32f10x_adc.c</in>
-            <in>stm32f10x_bkp.c</in>
-            <in>stm32f10x_can.c</in>
-            <in>stm32f10x_cec.c</in>
-            <in>stm32f10x_crc.c</in>
-            <in>stm32f10x_dac.c</in>
-            <in>stm32f10x_dbgmcu.c</in>
-            <in>stm32f10x_dma.c</in>
-            <in>stm32f10x_exti.c</in>
-            <in>stm32f10x_flash.c</in>
-            <in>stm32f10x_fsmc.c</in>
-            <in>stm32f10x_gpio.c</in>
-            <in>stm32f10x_i2c.c</in>
-            <in>stm32f10x_iwdg.c</in>
-            <in>stm32f10x_pwr.c</in>
-            <in>stm32f10x_rcc.c</in>
-            <in>stm32f10x_rtc.c</in>
-            <in>stm32f10x_sdio.c</in>
-            <in>stm32f10x_spi.c</in>
-            <in>stm32f10x_tim.c</in>
-            <in>stm32f10x_usart.c</in>
-            <in>stm32f10x_wwdg.c</in>
-          </df>
-        </df>
-      </df>
       <df name="out">
       </df>
+      <in>KamodMEMS2.cpp</in>
+      <in>KamodMEMS2.hpp</in>
       <in>KamodRGB.cpp</in>
       <in>KamodRGB.hpp</in>
       <in>main.cpp</in>
@@ -129,25 +15,22 @@
       <in>stm32f10x_it.c</in>
       <in>stm32f10x_it.h</in>
     </df>
-    <logicalFolder name="Libraries"
-                   displayName="Libraries"
-                   projectFiles="true"
-                   root="../workspace/TestI2C/Libraries">
+    <logicalFolder name="Libraries" displayName="Libraries" projectFiles="true">
       <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
         <logicalFolder name="CM3" displayName="CM3" projectFiles="true">
           <logicalFolder name="CoreSupport" displayName="CoreSupport" projectFiles="true">
-            <itemPath>../workspace/TestI2C/Libraries/CMSIS/CM3/CoreSupport/core_cm3.c</itemPath>
-            <itemPath>../workspace/TestI2C/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h</itemPath>
+            <itemPath>../StLibraries/Libraries/CMSIS/CM3/CoreSupport/core_cm3.c</itemPath>
+            <itemPath>../StLibraries/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h</itemPath>
           </logicalFolder>
           <logicalFolder name="DeviceSupport"
                          displayName="DeviceSupport"
                          projectFiles="true">
             <logicalFolder name="ST" displayName="ST" projectFiles="true">
               <logicalFolder name="STM32F10x" displayName="STM32F10x" projectFiles="true">
-                <itemPath>../workspace/TestI2C/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h</itemPath>
-                <itemPath>../workspace/TestI2C/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x_conf.h</itemPath>
-                <itemPath>../workspace/TestI2C/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c</itemPath>
-                <itemPath>../workspace/TestI2C/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h</itemPath>
+                <itemPath>../StLibraries/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h</itemPath>
+                <itemPath>../StLibraries/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x_conf.h</itemPath>
+                <itemPath>../StLibraries/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c</itemPath>
+                <itemPath>../StLibraries/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -157,54 +40,54 @@
                      displayName="STM32F10x_StdPeriph_Driver"
                      projectFiles="true">
         <logicalFolder name="inc" displayName="inc" projectFiles="true">
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_can.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_cec.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_crc.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dac.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dbgmcu.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_fsmc.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_i2c.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_iwdg.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rtc.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_sdio.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_wwdg.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_can.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_cec.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_crc.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dac.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dbgmcu.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_fsmc.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_i2c.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_iwdg.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rtc.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_sdio.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_wwdg.h</itemPath>
         </logicalFolder>
         <logicalFolder name="src" displayName="src" projectFiles="true">
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c</itemPath>
-          <itemPath>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c</itemPath>
+          <itemPath>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.c</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -217,6 +100,7 @@
     </logicalFolder>
     <itemPath>gdbinit</itemPath>
     <itemPath>run.sh</itemPath>
+    <itemPath>run_openocd.sh</itemPath>
   </logicalFolder>
   <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
   <sourceRootList>
@@ -237,7 +121,8 @@
           <executablePath>out/TestI2C.elf</executablePath>
           <cTool>
             <incDir>
-              <pElem>../workspace/TestI2C/Libraries/CMSIS/CM3/CoreSupport</pElem>
+              <pElem>../StLibraries/Libraries/CMSIS/CM3/CoreSupport</pElem>
+              <pElem>.</pElem>
             </incDir>
             <preprocessorList>
               <Elem>STM32F10X_CL=1</Elem>
@@ -561,9 +446,9 @@
           </cTool>
           <ccTool>
             <incDir>
-              <pElem>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc</pElem>
-              <pElem>../workspace/TestI2C/Libraries/CMSIS/CM3/CoreSupport</pElem>
-              <pElem>../workspace/TestI2C/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x</pElem>
+              <pElem>../StLibraries/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x</pElem>
+              <pElem>../StLibraries/Libraries/CMSIS/CM3/CoreSupport</pElem>
+              <pElem>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc</pElem>
               <pElem>.</pElem>
             </incDir>
             <preprocessorList>
@@ -893,452 +778,37 @@
           </ccTool>
         </makeTool>
       </makefileType>
-      <item path="Libraries/CMSIS/CM3/CoreSupport/core_cm3.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/CoreSupport/core_cm3.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/TrueSTUDIO/startup_stm32f10x_cl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/TrueSTUDIO/startup_stm32f10x_hd.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/TrueSTUDIO/startup_stm32f10x_hd_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/TrueSTUDIO/startup_stm32f10x_ld.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/TrueSTUDIO/startup_stm32f10x_ld_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/TrueSTUDIO/startup_stm32f10x_md.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/TrueSTUDIO/startup_stm32f10x_md_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/TrueSTUDIO/startup_stm32f10x_xl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/arm/startup_stm32f10x_cl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/arm/startup_stm32f10x_hd.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/arm/startup_stm32f10x_hd_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/arm/startup_stm32f10x_ld.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/arm/startup_stm32f10x_ld_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/arm/startup_stm32f10x_md.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/arm/startup_stm32f10x_md_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/arm/startup_stm32f10x_xl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_cl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_hd.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_hd_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_ld.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_ld_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_xl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/startup_stm32f10x_cl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/startup_stm32f10x_hd.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/startup_stm32f10x_hd_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/startup_stm32f10x_ld.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/startup_stm32f10x_ld_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/startup_stm32f10x_md.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/startup_stm32f10x_md_vl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/startup_stm32f10x_xl.s"
-            ex="true"
-            tool="4"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x_conf.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_can.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_cec.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_crc.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dac.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dbgmcu.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_fsmc.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_i2c.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_iwdg.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rtc.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_sdio.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_wwdg.h"
-            ex="true"
-            tool="3"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/misc.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
-      <item path="Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.c"
-            ex="true"
-            tool="0"
-            flavor="0">
-      </item>
       <folder path="I2CTest">
         <cTool>
           <incDir>
-            <pElem>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc</pElem>
-            <pElem>../workspace/TestI2C/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x</pElem>
-            <pElem>.</pElem>
+            <pElem>../StLibraries/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x</pElem>
+            <pElem>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc</pElem>
           </incDir>
         </cTool>
       </folder>
       <folder path="Libraries/CMSIS/CM3/DeviceSupport">
         <cTool>
           <incDir>
-            <pElem>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc</pElem>
-            <pElem>../workspace/TestI2C/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x</pElem>
+            <pElem>../StLibraries/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x</pElem>
+            <pElem>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc</pElem>
           </incDir>
         </cTool>
       </folder>
       <folder path="Libraries/STM32F10x_StdPeriph_Driver">
         <cTool>
           <incDir>
-            <pElem>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/src</pElem>
-            <pElem>../workspace/TestI2C/Libraries/STM32F10x_StdPeriph_Driver/inc</pElem>
-            <pElem>../workspace/TestI2C/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x</pElem>
+            <pElem>../StLibraries/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x</pElem>
+            <pElem>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/inc</pElem>
+            <pElem>../StLibraries/Libraries/STM32F10x_StdPeriph_Driver/src</pElem>
           </incDir>
         </cTool>
       </folder>
+      <item path="gdbinit" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="run.sh" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="run_openocd.sh" ex="true" tool="3" flavor="0">
+      </item>
       <item path="startup_stm32f10x_cl.S" ex="true" tool="4" flavor="0">
       </item>
     </conf>
